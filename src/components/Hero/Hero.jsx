@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, MainHeading } from '../../globalStyles';
-import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import { Button, Container, MainHeading, MainHeadingV2 } from '../../globalStyles';
+import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './Hero.styles';
 
 const Hero = () => {
 	return (
 		<HeroSection>
 			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
+				<MainHeadingV2>Cinthia's Cakes, Sweets & Catering</MainHeadingV2>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					Homemade wth love 
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
