@@ -1,7 +1,8 @@
 import React from 'react'
+import { Content } from '../components/Content/content.component';
 import Features from '../components/Features/features.component';
 import Hero from '../components/Hero/hero.component';
-import Navbar from '../components/Navbar/navbar.component';
+import { heroOne, heroTwo, heroThree } from '../data/hero.data';
 
 
 //Hero Feature Content Carousel
@@ -9,9 +10,11 @@ import Navbar from '../components/Navbar/navbar.component';
 const Home = () => {
   return (
     <>
-        <Hero />
-        <Navbar />
+        <Hero />        
         <Features />
+        <Content {...heroOne} />
+        <Content {...heroTwo} />
+        <Content {...heroThree} />
     </>
   )
 }
