@@ -10,7 +10,7 @@ const Hero = () => {
 			<Container>
 				<MainHeadingV2>Cinthia's Cakes, Sweets & Catering</MainHeadingV2>
 				<HeroText>
-					Homemade wth love 
+					Homemade with love 
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
