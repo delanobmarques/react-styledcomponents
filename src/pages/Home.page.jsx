@@ -1,6 +1,7 @@
 import React from 'react'
-import Hero from '../components/Hero/Hero.component';
-import Navbar from '../components/Navbar/Navbar.component';
+import Features from '../components/Features/features.component';
+import Hero from '../components/Hero/hero.component';
+import Navbar from '../components/Navbar/navbar.component';
 
 
 //Hero Feature Content Carousel
@@ -10,6 +11,7 @@ const Home = () => {
     <>
         <Hero />
         <Navbar />
+        <Features />
     </>
   )
 }

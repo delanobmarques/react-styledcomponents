@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading, MainHeadingV2 } from '../../globalStyles';
-import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './Hero.styles';
+import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './hero.styles';
 
 const Hero = () => {
 	return (

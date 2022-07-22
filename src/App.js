@@ -2,9 +2,9 @@ import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GlobalStyle from "./globalStyles";
 
 //PAGES
-import Home from "./pages/Home.page";
-import Pricing from "./pages/Pricing.page";
-import SignUp from "./pages/SignUp.page";
+import Home from "./pages/home.page";
+import Pricing from "./pages/pricing.page";
+import SignUp from "./pages/sign-up.page";
 
 function App() {
   return (

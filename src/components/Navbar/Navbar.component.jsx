@@ -11,9 +11,9 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
-} from './Navbar.styles.js';
+} from './navbar.styles.js';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { data } from '../../data/Navbar.data.js';
+import { data } from '../../data/navbar.data.js';
 
 const Navbar = () => {
     //for mobile menu
